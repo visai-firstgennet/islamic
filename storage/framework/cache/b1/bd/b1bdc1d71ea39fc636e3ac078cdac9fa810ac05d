@@ -1,0 +1,20 @@
+1575278237a:1:{s:22:"international-news.htm";a:12:{s:8:"fileName";s:22:"international-news.htm";s:7:"content";s:388:"title = "international news"
+url = "/international-news/page/:ipage"
+layout = "international-news"
+is_hidden = 0
+
+[slider]
+category = 1
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "false"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+
+[ArticleList]
+sorting = "publish|desc"
+
+[ArticleData]
+==";s:5:"mtime";i:1574537834;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:18:"international news";s:3:"url";s:31:"/international-news/page/:ipage";s:6:"layout";s:18:"international-news";s:9:"is_hidden";s:1:"0";s:6:"slider";a:8:{s:8:"category";s:1:"1";s:10:"sliderType";s:8:"bxSlider";s:11:"sliderPager";s:5:"false";s:11:"sliderSpeed";s:3:"800";s:10:"sliderAuto";s:5:"false";s:13:"sliderShowNav";s:5:"false";s:21:"sliderShowDescription";s:5:"false";s:24:"sliderAllowClickOpenLink";s:5:"false";}s:11:"ArticleList";a:1:{s:7:"sorting";s:12:"publish|desc";}s:11:"ArticleData";a:0:{}}}

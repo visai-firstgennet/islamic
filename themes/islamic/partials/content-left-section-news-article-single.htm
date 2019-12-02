@@ -1,0 +1,30 @@
+url = "/news/:id"
+==
+
+{# Get an article item with ID = 10 #}
+{% set obArticle = ArticleData.get(this.param.id) %}
+
+
+
+{% if obArticle.isNotEmpty() %}
+<div class='content-title'>{{ obArticle.title }}</div>
+    <div data-id="{{ obArticle.id }}">
+
+        <span style='font-size:14px; line-height:24px; border:1px sol'>
+         ចុះផ្សាយ​​  {{ obArticle.published_start.format('F d, Y') }}
+        </span>
+
+        <div style='font-size:14px; line-height:24px; border:1px sol'>
+        <br>
+        {{ obArticle.content|raw }}
+        </div>
+
+        {% if obArticle.images is not empty %}
+          {% for image in obArticle.images %}
+            <br>
+            <img src="{{ image.path }}" alt="{{obArticle.title}}" style='width:650px; height:400px; margin-right:10px; margin-bottom:5px; float:left; border:1px solid #eee' />
+            <br>
+          {% endfor %}
+        {% endif %}
+    </div>
+{% endif %}

@@ -1,0 +1,82 @@
+url = "/national-news/page/:ipage"
+==
+{# Get an article collection #}
+{% set latestNewsList = ArticleList.make().category(1,true).sort('publish|desc') %}
+
+{# Get an array with pagination buttons #}
+<!-- {% set iPage = Pagination.getPageFromRequest() %} -->
+{% set iPage = this.param.ipage %}
+
+{% set arPaginationList = Pagination.get(iPage, latestNewsList.count()) %}
+
+{% set countArticlePerPage = Pagination.getCountPerPage() %}
+
+
+{% set iMaxPage = Pagination.getMaxPage(latestNewsList.count()) %}
+
+
+{% set iNextPageCount = Pagination.getCountForNextPage(iPage, latestNewsList.count()) %}
+
+
+{# Apply a pagination to the article collection and get an array with article items #}
+
+{% set arArticleList = latestNewsList.page(iPage, Pagination.getCountPerPage()) %}
+
+<div class='content-title'>ព័ត៌មានថ្មីៗ ក្នុងប្រទេស</div>
+<div class='content-body-full' style='padding-top:15px; padding-bottom:15px;'>
+
+{% if latestNewsList is not empty %}
+	{% for obArticle in arArticleList %}
+			<div style='margin-bottom:10px; padding-bottom:10px; border-bottom:1px dotted #ddd; font-size:14px; line-height:24px'>
+				<a class='link' href="{{ 'news-single'|page({id:obArticle.id})}}">
+					<img src="{{ obArticle.preview_image.path }}"
+					alt="{{ obArticle.title}}"
+					style='width:200px; height:100px; margin-right:10px; margin-bottom:5px; float:left; border:none' />
+				</a>
+				<div>
+					<a class='link' href="{{ 'news-single'|page({id:obArticle.id})}}"
+						style=''>{{obArticle.title}}
+						</a>
+				</div>
+				<div style='color:#ccc; margin-bottom:10px; '>ចុះផ្សាយ: {{obArticle.published_start}}
+				</div>
+				<div style='clear:both'></div>
+				<div style='word-wrap: break-word;'>
+						{{obArticle.preview_text|raw}}
+				</div>
+				<div style='clear:both'></div>
+			</div>
+
+	{% endfor %}
+{% endif %}
+
+
+    {# Render the pagination buttons #}
+    {% if arPaginationList is not empty %}
+			{% if this.param.ipage > 2 %}
+				<a href="{{ 'national-news'|page({ipage:1})}}" class="{{ arPagination.class }}"> First </a>
+			{% endif %}
+
+			{% if this.param.ipage > 1 %}
+				<a href="{{ 'national-news'|page({ipage:this.param.ipage - 1})}}" class="{{ arPagination.class }}"> Prev </a>
+			{% endif %}
+
+			{% if iMaxPage > 1 %}
+        {% for arPagination in arPaginationList %}
+            <a href="{{ 'national-news'|page({ipage:arPagination.value})}}" class="{{ arPagination.class }}">{{ arPagination.name }}</a>
+        {% endfor %}
+			{% endif %}
+
+			{% if this.param.ipage < iMaxPage %}
+				<a href="{{ 'national-news'|page({ipage:this.param.ipage + 1})}}" class="{{ arPagination.class }}"> Next </a>
+			{% endif %}
+
+			{% if this.param.ipage < iMaxPage %}
+				<a href="{{ 'national-news'|page({ipage:iMaxPage})}}" class="{{ arPagination.class }}"> Last </a>
+			{% endif %}
+
+    {% endif %}
+
+
+	<div style='clear:both'></div>
+</div>

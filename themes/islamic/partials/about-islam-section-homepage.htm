@@ -1,0 +1,33 @@
+{% set aboutIslamArticleList = ArticleList.make().sort('publish|desc').published() %}
+{% set aboutIslamArticleIndex = 0%}
+
+
+{% if this.page.id == 'homepage' %}
+<a href="{{ 'international-news'|page({ipage:1})}}" style="float:right;" class="button">មើលទាំងអស់ &raquo</a>
+  <div class="content-title">អំពីឥស្លាម</div>
+{% endif %}
+
+{% if this.page.id == 'en-homepage' %}
+<a href="{{ 'international-news'|page({ipage:1})}}" style="float:right;" class="button">Show All &raquo</a>
+  <div class="content-title">About Islam</div>
+{% endif %}
+
+  <div class="content-body" style="border-bottom:5px #ccc solid; margin-bottom:20px">
+    {% for aboutIslamArticle in aboutIslamArticleList if aboutIslamArticleIndex < 5 %}
+      {% if aboutIslamArticle.category_id == 2 %}
+      <div style='border-bottom:1px dotted #ccc; padding-bottom:10px; margin-bottom:10px'>
+        <a class='link' href="{{ 'news-single'|page({id:aboutIslamArticle.id})}}">
+          <img src="{{ aboutIslamArticle.preview_image.path }}" alt="{{aboutIslamArticle.title}}" style='width:150px; height:100px; margin-right:10px; margin-bottom:5px; float:left; border:1px solid #eee' />
+        </a>
+        <div style='font-size:14px; float:left; width:485px; height:100px; overflow:hidden; word-wrap:break-word;'>
+          <a href="{{ 'news-single'|page({id:aboutIslamArticle.id})}}" class='link' style=''>{{ aboutIslamArticle.title }}</a>
+          <div style='line-height:18px; font-size:12px; color:#bbb' class='content-body'>
+            {{aboutIslamArticle.preview_text}}
+          </div>
+        </div>
+        <div style='clear:both'></div>
+        {% set aboutIslamArticleIndex = aboutIslamArticleIndex + 1 %}
+  </div>
+    {% endif %}
+    {% endfor %}
+  </div>

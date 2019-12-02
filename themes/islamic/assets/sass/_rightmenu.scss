@@ -1,0 +1,14 @@
+.right-menu ul{width:300px;list-style-type:none;position:relative;z-index:1;margin:0;padding:0;}
+.right-menu ul li{position:relative;}
+.right-menu ul li a{display:block; word-wrap:break-word; background:#fff;color:#3b5998;text-decoration:none;border-bottom:1px dotted #bbb;padding:7px; font-size:14px;}
+.right-menu ul li a.select,.right-menu ul li a.select:hover,.right-menu ul li a.current,.right-menu ul li a.current:hover,.right-menu ul li a:hover{color:red;}
+.right-menu ul li ul{position:absolute;width:300px;top:0;visibility:hidden;z-index:1;}
+.right-menu ul li ul li {display:list-item;float:none;right:0;top:0;}
+.right-menu ul li ul li ul {top:0;}
+.right-menu ul li ul li a {width:290px;padding-right:5px;background:#5a3b42;color:#fff;margin:0;border-bottom:1px solid #4f343a;}
+.right-menu ul li ul li a:hover{color:#fff;font-weight:400;background:#23c0ed;}
+* html .right-menu ul li{float:right;height:1%;}
+* html .right-menu ul li a{height:1%;}
+.rightarrowclass{position:absolute;top:15px;right:5px;}
+.ddshadow{position:absolute;right:0;top:0;width:0;height:0;background:silver;}
+.toplevelshadow{opacity:0.8;}

@@ -1,0 +1,14 @@
+1575278237a:1:{s:15:"en-homepage.htm";a:10:{s:8:"fileName";s:15:"en-homepage.htm";s:7:"content";s:271:"title = "en-homepage"
+url = "/en"
+layout = "en-homepage"
+is_hidden = 0
+
+[slider]
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "true"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+==";s:5:"mtime";i:1574941130;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:11:"en-homepage";s:3:"url";s:3:"/en";s:6:"layout";s:11:"en-homepage";s:9:"is_hidden";s:1:"0";s:6:"slider";a:7:{s:10:"sliderType";s:8:"bxSlider";s:11:"sliderPager";s:5:"false";s:11:"sliderSpeed";s:3:"800";s:10:"sliderAuto";s:4:"true";s:13:"sliderShowNav";s:5:"false";s:21:"sliderShowDescription";s:5:"false";s:24:"sliderAllowClickOpenLink";s:5:"false";}}}

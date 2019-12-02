@@ -1,0 +1,45 @@
+title = "news"
+url = "/news/page/:ipage"
+layout = "article-news"
+description = "This is local news based in Cambodia"
+is_hidden = 0
+
+[ArticleList]
+sorting = "publish|desc"
+
+[slider]
+category = 1
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "false"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+
+[Pagination]
+available_count_per_page = "{{ ArticleList }}"
+count_per_page = 5
+pagination_limit = 3
+active_class = "_act"
+first_button_name = "First"
+first_button_limit = 1
+first_button_number = 0
+first-more_button_name = "..."
+first-more_button_limit = 1
+prev_button_name = "Prev"
+prev_button_limit = 1
+prev_button_number = 0
+prev-more_button_name = "..."
+prev-more_button_limit = 1
+next-more_button_name = "..."
+next-more_button_limit = 1
+next_button_name = "Next"
+next_button_limit = 1
+next_button_number = 0
+last-more_button_name = "..."
+last-more_button_limit = 1
+last_button_name = "Last"
+last_button_limit = 1
+last_button_number = 1
+==

@@ -1,0 +1,13 @@
+1.0.1: 
+    - First version of slider.
+1.0.2:
+    - Create clarknguyen_slider_items table.
+    - create_items_table.php
+1.0.3:
+    - Create clarknguyen_slider_categories table.
+    - create_categories_table.php
+1.0.4: 
+    - Fix categories join items to show on frontend.
+1.0.5:
+    - Add new slider types, add more optiosn to component to show to frontend, add link to open when user click on each image.
+    - add_fields_to_slider_table_v1.php

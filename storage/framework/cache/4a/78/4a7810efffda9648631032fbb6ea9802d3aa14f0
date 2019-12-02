@@ -1,0 +1,17 @@
+1575278237a:1:{s:15:"news-single.htm";a:11:{s:8:"fileName";s:15:"news-single.htm";s:7:"content";s:312:"title = "news single"
+url = "/news/:id"
+layout = "article-single"
+is_hidden = 0
+
+[ArticleData]
+
+[slider]
+category = 1
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "false"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+==";s:5:"mtime";i:1574431730;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:11:"news single";s:3:"url";s:9:"/news/:id";s:6:"layout";s:14:"article-single";s:9:"is_hidden";s:1:"0";s:11:"ArticleData";a:0:{}s:6:"slider";a:8:{s:8:"category";s:1:"1";s:10:"sliderType";s:8:"bxSlider";s:11:"sliderPager";s:5:"false";s:11:"sliderSpeed";s:3:"800";s:10:"sliderAuto";s:5:"false";s:13:"sliderShowNav";s:5:"false";s:21:"sliderShowDescription";s:5:"false";s:24:"sliderAllowClickOpenLink";s:5:"false";}}}

@@ -1,0 +1,70 @@
+<div class="top-menu-wrap">
+  <div class="top-menu">
+    <div id="top-btn" class="top-btn">
+      <ul>
+        <li><a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}">ទំព័រដើម</a></li>
+          <li><span class='line-btwn'></span>
+            <a class="{% if this.page.id == 'about' %} current {% endif %}" href="{{ 'about'|page}}">អំពីយើង</a>
+            <ul>
+              <li><a  href="{{ 'ceo-message'|page}}">សារអំពីប្រធាន</a>
+              </li>
+              <li><a  href="{{ 'location'|page}}">ទីតាំងការិយាល័យ</a>
+              </li>
+            </ul>
+          </li>
+          <li><span class='line-btwn'></span><a href="{{ 'homepage'|page}}">គួរបាន និង ពិធីស្រាយបួស</a></li>
+          <li><a class="{% if this.page.id == 'news' %} current {% endif %}" href="{{ 'news'|page({ipage:1})}}">ព័ត៌មាន</a>
+            <ul>
+              <li><a class="{% if this.page.id == 'national-news' %} current {% endif %}" href="{{ 'national-news'|page({ipage:1})}}">ក្នុងប្រទេស</a></li>
+              <li><a class="{% if this.page.id == 'international-news' %} current {% endif %}" href="{{ 'international-news'|page({ipage:1})}}">អន្តរជាតិ</a></li>
+            </ul>
+          </li>
+        <li><a href="{{ 'homepage'|page}}">វិចិត្រសាល</a>
+          <ul>
+            <li><a href="{{ 'homepage'|page}}">សំឡេង</a>
+              <ul>
+                <li><a href="{{ 'homepage'|page}}">វិទ្យុ</a></li>
+                <li><a href="{{ 'homepage'|page}}">គុរអាន</a></li>
+                <li><a href="{{ 'homepage'|page}}">គុរអានបកប្រែ</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ 'homepage'|page}}">វីដេអូ</a>
+
+            </li>
+            <li><a href="{{ 'homepage'|page}}">រូបថត</a>
+              <ul>
+                <li><a href="{{ 'homepage'|page}}">ពិធីអាហារស្រាយបួស ខែរ៉ាម៉ាឌន នៃសាសនាឥស្លាមកម្ពុជា</a></li>
+                <li><a href="{{ 'homepage'|page}}">សម្ពោធម៉ាស្ជិត</a></li>
+                <li><a href="{{ 'homepage'|page}}">សិក្ខាសាលា</a></li>
+                <li><a href="{{ 'homepage'|page}}">ពិនិត្យទីតាំងសាងសង់ម៉ាស្ជិត</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'homepage'|page}}">អំពីឥស្លាម</a>
+          <ul>
+            <li><a href="{{ 'homepage'|page}}">អាល់គូរអាន</a>
+              <li><a class='' href="{{ 'homepage'|page}}">ហាទីស</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">ឥស្លាម និង វិទ្យាសាស្រ្ត</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">រឿងខ្លីៗ</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">ទូអា និងហ្ស៊ីកៀរ៍</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">ហ៊ូកុម ហ្វីកោះ</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">អាយ៉ាត់ អាល់គុរអាន</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">បណ្ណាល័យរ៉ាម៉ាឌន</a></li>
+              <li><a class='' href="{{ 'homepage'|page}}">ទស្សនៈឥស្លាម</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'homepage'|page}}">ទាញយក</a>
+          <ul>
+            <li><a class='' href="{{ 'homepage'|page}}">ពេលវេលាសឡាត៍</a></li>
+            <li><a class='' href="{{ 'homepage'|page}}">ឯកសារផ្សេងៗ</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ 'homepage'|page}}">ដំណឹងផ្សេងៗ</a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.top-btn{ width:auto;	height:38px; display:block;	float:left; font-size:12px; }
+.top-btn ul{ z-index:9999; margin: 0;	padding: 0;	list-style-type: none;}
+.top-btn ul li{ position: relative; left:0px; top:0; display: inline; float: left; }
+.top-btn ul li a{ display:block; min-height:20px; text-decoration:none; padding:18px 14px 17px; font-size:14px; color:#000; border-right:1px solid #f0f1ec; text-transform:uppercase;}
+.top-btn ul li a.current, .top-btn ul li a.current:hover{ background:#2991e6; color:#fff; }
+.top-btn ul li a:hover { background:#2991e6; color:#fff; }
+.top-btn ul li a.select, .top-btn ul li a.select:hover{ background:#2991e6; color:#fff; }
+* html .top-btn ul li a{ display: inline-block; }
+.top-btn ul li ul{ position: absolute;	left: 0; top:0; display: none;	visibility: hidden; z-index:999999; }
+.top-btn ul li ul li{ display: list-item;	float: none; left: 0; }
+.top-btn ul li ul li ul{	top: 0;}
+.top-btn ul li ul li a{ width:200px; font-weight:normal;  padding:10px; margin: 0; color:#fff;  overflow:hidden; text-transform:capitalize; background:#2991e6; border-left:none; border-right:none;}
+.top-btn ul li ul li a:hover, .top-btn ul li ul li a.select, .top-btn ul li ul li a.select:hover, .top-btn ul li ul li a.current, .top-btn ul li ul li a.current:hover{	background:#2991e6; border-top:none;}
+.downarrowclass{ position: absolute;	top: 25px; right:7px; }
+* html .ddsmoothmenu{height: 1%;}

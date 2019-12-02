@@ -1,0 +1,20 @@
+1575278237a:1:{s:12:"homepage.htm";a:13:{s:8:"fileName";s:12:"homepage.htm";s:7:"content";s:496:"title = "Homepage"
+url = "/"
+layout = "default"
+meta_title = "ទំព័រដើម"
+meta_description = "ទំព័រដើម សំរាប់បង្ហាញរាល់ព៌តមានសំខាន់ៗ"
+is_hidden = 0
+
+[slider]
+category = 1
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "false"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+
+[ArticleList]
+sorting = "publish|desc"
+==";s:5:"mtime";i:1574424475;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:24:"ទំព័រដើម";s:16:"meta_description";s:112:"ទំព័រដើម សំរាប់បង្ហាញរាល់ព៌តមានសំខាន់ៗ";s:9:"is_hidden";s:1:"0";s:6:"slider";a:8:{s:8:"category";s:1:"1";s:10:"sliderType";s:8:"bxSlider";s:11:"sliderPager";s:5:"false";s:11:"sliderSpeed";s:3:"800";s:10:"sliderAuto";s:5:"false";s:13:"sliderShowNav";s:5:"false";s:21:"sliderShowDescription";s:5:"false";s:24:"sliderAllowClickOpenLink";s:5:"false";}s:11:"ArticleList";a:1:{s:7:"sorting";s:12:"publish|desc";}}}

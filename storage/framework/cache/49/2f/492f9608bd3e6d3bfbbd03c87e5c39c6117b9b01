@@ -1,0 +1,45 @@
+1575278237a:1:{s:8:"news.htm";a:13:{s:8:"fileName";s:8:"news.htm";s:7:"content";s:1058:"title = "news"
+url = "/news/page/:ipage"
+layout = "article-news"
+description = "This is local news based in Cambodia"
+is_hidden = 0
+
+[ArticleList]
+sorting = "publish|desc"
+
+[slider]
+category = 1
+sliderType = "bxSlider"
+sliderPager = "false"
+sliderSpeed = 800
+sliderAuto = "false"
+sliderShowNav = "false"
+sliderShowDescription = "false"
+sliderAllowClickOpenLink = "false"
+
+[Pagination]
+available_count_per_page = "{{ ArticleList }}"
+count_per_page = 5
+pagination_limit = 3
+active_class = "_act"
+first_button_name = "First"
+first_button_limit = 1
+first_button_number = 0
+first-more_button_name = "..."
+first-more_button_limit = 1
+prev_button_name = "Prev"
+prev_button_limit = 1
+prev_button_number = 0
+prev-more_button_name = "..."
+prev-more_button_limit = 1
+next-more_button_name = "..."
+next-more_button_limit = 1
+next_button_name = "Next"
+next_button_limit = 1
+next_button_number = 0
+last-more_button_name = "..."
+last-more_button_limit = 1
+last_button_name = "Last"
+last_button_limit = 1
+last_button_number = 1
+==";s:5:"mtime";i:1574536327;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:4:"news";s:3:"url";s:17:"/news/page/:ipage";s:6:"layout";s:12:"article-news";s:11:"description";s:36:"This is local news based in Cambodia";s:9:"is_hidden";s:1:"0";s:11:"ArticleList";a:1:{s:7:"sorting";s:12:"publish|desc";}s:6:"slider";a:8:{s:8:"category";s:1:"1";s:10:"sliderType";s:8:"bxSlider";s:11:"sliderPager";s:5:"false";s:11:"sliderSpeed";s:3:"800";s:10:"sliderAuto";s:5:"false";s:13:"sliderShowNav";s:5:"false";s:21:"sliderShowDescription";s:5:"false";s:24:"sliderAllowClickOpenLink";s:5:"false";}s:10:"Pagination";a:24:{s:24:"available_count_per_page";s:17:"{{ ArticleList }}";s:14:"count_per_page";s:1:"5";s:16:"pagination_limit";s:1:"3";s:12:"active_class";s:4:"_act";s:17:"first_button_name";s:5:"First";s:18:"first_button_limit";s:1:"1";s:19:"first_button_number";s:1:"0";s:22:"first-more_button_name";s:3:"...";s:23:"first-more_button_limit";s:1:"1";s:16:"prev_button_name";s:4:"Prev";s:17:"prev_button_limit";s:1:"1";s:18:"prev_button_number";s:1:"0";s:21:"prev-more_button_name";s:3:"...";s:22:"prev-more_button_limit";s:1:"1";s:21:"next-more_button_name";s:3:"...";s:22:"next-more_button_limit";s:1:"1";s:16:"next_button_name";s:4:"Next";s:17:"next_button_limit";s:1:"1";s:18:"next_button_number";s:1:"0";s:21:"last-more_button_name";s:3:"...";s:22:"last-more_button_limit";s:1:"1";s:16:"last_button_name";s:4:"Last";s:17:"last_button_limit";s:1:"1";s:18:"last_button_number";s:1:"1";}}}

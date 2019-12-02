@@ -1,0 +1,40 @@
+1575278237a:1:{s:38:"content-right-section-announcement.htm";a:5:{s:8:"fileName";s:38:"content-right-section-announcement.htm";s:7:"content";s:665:"<div class="right-block">
+
+		{% if this.page.id == 'homepage' %}
+		<a href="announcement.html" style="float:right; font-size:14px; padding:20px;" class="link">មើលទាំងអស់ &raquo;</a>
+		<div class="right-title">ដំណឹងផ្សេងៗ
+		</div>
+		{% endif %}
+
+		{% if this.page.id == 'en-homepage' %}
+		<a href="announcement.html" style="float:right; font-size:14px; padding:20px;" class="link">Show All &raquo;</a>
+		<div class="right-title">Announcement
+		</div>
+		{% endif %}
+		<div class="right-body" style="">
+			<div id="slider" class="stepcarousel">
+				<div class="belt">
+				</div>
+			</div>
+		</div>
+	</div>
+";s:5:"mtime";i:1574944241;s:6:"markup";s:663:"<div class="right-block">
+
+		{% if this.page.id == 'homepage' %}
+		<a href="announcement.html" style="float:right; font-size:14px; padding:20px;" class="link">មើលទាំងអស់ &raquo;</a>
+		<div class="right-title">ដំណឹងផ្សេងៗ
+		</div>
+		{% endif %}
+
+		{% if this.page.id == 'en-homepage' %}
+		<a href="announcement.html" style="float:right; font-size:14px; padding:20px;" class="link">Show All &raquo;</a>
+		<div class="right-title">Announcement
+		</div>
+		{% endif %}
+		<div class="right-body" style="">
+			<div id="slider" class="stepcarousel">
+				<div class="belt">
+				</div>
+			</div>
+		</div>
+	</div>";s:4:"code";N;}}

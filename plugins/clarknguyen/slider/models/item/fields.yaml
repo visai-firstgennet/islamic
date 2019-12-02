@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    title:
+        label: Title
+    description:
+        label: Description
+        type: richeditor
+    categories:
+        label: Categories
+        type: relation
+    link_when_click_on_image:
+        label: The link open when user click on the image
+    slider_image:
+        label: Image
+        type: fileupload
+        mode: image

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/clarknguyen/slider/models/category/fields.yaml
+
+# Model Class name
+modelClass: ClarkNguyen\Slider\Models\Category
+
+# Default redirect location
+defaultRedirect: clarknguyen/slider/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: clarknguyen/slider/categories/update/:id
+    redirectClose: clarknguyen/slider/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: clarknguyen/slider/categories
+    redirectClose: clarknguyen/slider/categories
+
+# Preview page
+preview:
+    title: Preview Category

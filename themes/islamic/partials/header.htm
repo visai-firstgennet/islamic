@@ -1,0 +1,39 @@
+<div class="head-wrap">
+  <div class="head">
+    <div class="logo">
+      <a href="{{ 'homepage'|page}}"><img src="{{ 'assets/images/systems/logo.png'|theme }}"></a>
+    </div>
+
+    <div class="languages">
+      <a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}"> <img src="{{ 'assets/images/systems/flag-cambodia.jpg'|theme }}" /> ភាសាខ្មែរ</a>
+      <a class="{% if this.page.id == 'en-homepage' %} current {% endif %}" href="{{ 'en-homepage'|page}}"><img src="{{ 'assets/images/systems/flag-england.jpg'|theme }}" /> English</a>
+      <div class="clear"></div>
+    </div>
+    <div style="clear:right"></div>
+
+    {% if this.page.id == 'homepage' %}
+      <div class="search-form">
+        <form action="{{ 'homepage'|page}}">
+          <div>
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" class="search-box" value="" />
+            <input type="submit" name="sa" value="ស្វែងរក" class="search-btn button" />
+          </div>
+        </form>
+      </div>
+    {% endif %}
+
+    {% if this.page.id == 'en-homepage' %}
+      <div class="search-form">
+        <form action="{{ 'en-homepage'|page}}">
+          <div>
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="text" name="q" class="search-box" value="" />
+            <input type="submit" name="sa" value="Search" class="search-btn button" />
+          </div>
+        </form>
+      </div>
+    {% endif %}
+
+  </div>
+</div>

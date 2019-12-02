@@ -1,0 +1,150 @@
+1575278237a:1:{s:15:"en-nav-menu.htm";a:5:{s:8:"fileName";s:15:"en-nav-menu.htm";s:7:"content";s:3685:"<div class="top-menu-wrap">
+  <div class="top-menu">
+    <div id="top-btn" class="top-btn">
+      <ul>
+        <li><a class="{% if this.page.id == 'en-homepage' %} current {% endif %}" href="{{ 'en-homepage'|page}}">HOME</a></li>
+          <li><span class='line-btwn'></span>
+            <a class="{% if this.page.id == 'en-about' %} current {% endif %}" href="{{ 'en-about'|page}}">ABOUT US</a>
+            <ul>
+              <li><a  href="{{ 'en-homepage'|page}}">Organizational Structure</a>
+                <ul>
+                  <li><a  href="{{ 'en-homepage'|page}}">High Honorable Presidency</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Supreme Council Committee</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Council Committee (Co.C)</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Central Committee (CC) - 2nd Mandate</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li><a class="{% if this.page.id == 'en-news' %} current {% endif %}" href="{{ 'en-news'|page({ipage:1})}}">NEWS</a>
+            <ul>
+              <li><a class="{% if this.page.id == 'en-national-news' %} current {% endif %}" href="{{ 'en-national-news'|page({ipage:1})}}">Local News</a></li>
+            </ul>
+          </li>
+        <li><a href="{{ 'en-homepage'|page}}">GALLERY</a>
+          <ul>
+            <li><a href="{{ 'en-homepage'|page}}">Audio</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">Radio</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Recitation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Translation</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ 'en-homepage'|page}}">Video</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">News</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Khutibah</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Recitation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Translation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Islamic Community</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Islam And Science</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Workshop</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Fiqah</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Dua</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Other</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ 'en-homepage'|page}}">Photo</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">Ramadan Iftar Dinner Of Cambodian Muslim</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Mosque Inauguration</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Seminar</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Visi Mosque Construction</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'en-homepage'|page}}">ABOUT ISLAM</a>
+          <ul>
+            <li><a href="{{ 'en-homepage'|page}}">Al-Quran</a>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'en-homepage'|page}}">DOWNLOAD</a>
+          <ul>
+            <li><a class='' href="{{ 'en-homepage'|page}}">Documentation</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ 'en-homepage'|page}}">ANNOUNCEMENT</a></li>
+        <li><a href="{{ 'en-homepage'|page}}">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+";s:5:"mtime";i:1574944743;s:6:"markup";s:3683:"<div class="top-menu-wrap">
+  <div class="top-menu">
+    <div id="top-btn" class="top-btn">
+      <ul>
+        <li><a class="{% if this.page.id == 'en-homepage' %} current {% endif %}" href="{{ 'en-homepage'|page}}">HOME</a></li>
+          <li><span class='line-btwn'></span>
+            <a class="{% if this.page.id == 'en-about' %} current {% endif %}" href="{{ 'en-about'|page}}">ABOUT US</a>
+            <ul>
+              <li><a  href="{{ 'en-homepage'|page}}">Organizational Structure</a>
+                <ul>
+                  <li><a  href="{{ 'en-homepage'|page}}">High Honorable Presidency</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Supreme Council Committee</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Council Committee (Co.C)</a></li>
+                  <li><a  href="{{ 'en-homepage'|page}}">Central Committee (CC) - 2nd Mandate</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li><a class="{% if this.page.id == 'en-news' %} current {% endif %}" href="{{ 'en-news'|page({ipage:1})}}">NEWS</a>
+            <ul>
+              <li><a class="{% if this.page.id == 'en-national-news' %} current {% endif %}" href="{{ 'en-national-news'|page({ipage:1})}}">Local News</a></li>
+            </ul>
+          </li>
+        <li><a href="{{ 'en-homepage'|page}}">GALLERY</a>
+          <ul>
+            <li><a href="{{ 'en-homepage'|page}}">Audio</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">Radio</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Recitation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Translation</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ 'en-homepage'|page}}">Video</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">News</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Khutibah</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Recitation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Quran Translation</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Islamic Community</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Islam And Science</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Workshop</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Fiqah</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Dua</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Other</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ 'en-homepage'|page}}">Photo</a>
+              <ul>
+                <li><a href="{{ 'en-homepage'|page}}">Ramadan Iftar Dinner Of Cambodian Muslim</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Mosque Inauguration</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Seminar</a></li>
+                <li><a href="{{ 'en-homepage'|page}}">Visi Mosque Construction</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'en-homepage'|page}}">ABOUT ISLAM</a>
+          <ul>
+            <li><a href="{{ 'en-homepage'|page}}">Al-Quran</a>
+          </ul>
+        </li>
+
+        <li><a href="{{ 'en-homepage'|page}}">DOWNLOAD</a>
+          <ul>
+            <li><a class='' href="{{ 'en-homepage'|page}}">Documentation</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ 'en-homepage'|page}}">ANNOUNCEMENT</a></li>
+        <li><a href="{{ 'en-homepage'|page}}">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</div>";s:4:"code";N;}}
