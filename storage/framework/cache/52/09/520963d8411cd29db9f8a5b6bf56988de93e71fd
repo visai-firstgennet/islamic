@@ -1,4 +1,4 @@
-1575717934a:1:{s:32:"latest-news-section-homepage.htm";a:5:{s:8:"fileName";s:32:"latest-news-section-homepage.htm";s:7:"content";s:6513:"
+1576047834a:1:{s:32:"latest-news-section-homepage.htm";a:5:{s:8:"fileName";s:32:"latest-news-section-homepage.htm";s:7:"content";s:6513:"
 {% set obArticleList = ArticleList.make().sort('publish|desc').published() %}
 
 {{ obArticleList.count() }}
@@ -137,7 +137,7 @@
 
 			</div>
 			{% endif %}
-";s:5:"mtime";i:1575717330;s:6:"markup";s:6509:"{% set obArticleList = ArticleList.make().sort('publish|desc').published() %}
+";s:5:"mtime";i:1576031643;s:6:"markup";s:6509:"{% set obArticleList = ArticleList.make().sort('publish|desc').published() %}
 
 {{ obArticleList.count() }}
 
