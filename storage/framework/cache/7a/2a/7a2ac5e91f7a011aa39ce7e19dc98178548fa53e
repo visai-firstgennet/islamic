@@ -1,4 +1,4 @@
-1576047834a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1578:"<div class="head-wrap">
+1576051469a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1578:"<div class="head-wrap">
   <div class="head">
     <div class="logo">
       <a href="{{ 'homepage'|page}}"><img src="{{ 'assets/images/systems/logo.png'|theme }}"></a>

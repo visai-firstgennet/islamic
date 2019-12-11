@@ -1,8 +1,8 @@
-1576047834a:1:{s:12:"nav-menu.htm";a:5:{s:8:"fileName";s:12:"nav-menu.htm";s:7:"content";s:4254:"<div class="top-menu-wrap">
+1576051469a:1:{s:12:"nav-menu.htm";a:5:{s:8:"fileName";s:12:"nav-menu.htm";s:7:"content";s:4246:"<div class="top-menu-wrap">
   <div class="top-menu">
     <div id="top-btn" class="top-btn">
       <ul>
-        <li><a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}">ទំព័រដើមTesting </a></li>
+        <li><a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}">ទំព័រដើម</a></li>
           <li><span class='line-btwn'></span>
             <a class="{% if this.page.id == 'about' %} current {% endif %}" href="{{ 'about'|page}}">អំពីយើង</a>
             <ul>
@@ -68,11 +68,11 @@
     </div>
   </div>
 </div>
-";s:5:"mtime";i:1576044671;s:6:"markup";s:4252:"<div class="top-menu-wrap">
+";s:5:"mtime";i:1576047669;s:6:"markup";s:4244:"<div class="top-menu-wrap">
   <div class="top-menu">
     <div id="top-btn" class="top-btn">
       <ul>
-        <li><a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}">ទំព័រដើមTesting </a></li>
+        <li><a class="{% if this.page.id == 'homepage' %} current {% endif %}" href="{{ 'homepage'|page}}">ទំព័រដើម</a></li>
           <li><span class='line-btwn'></span>
             <a class="{% if this.page.id == 'about' %} current {% endif %}" href="{{ 'about'|page}}">អំពីយើង</a>
             <ul>

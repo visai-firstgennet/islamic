@@ -45,7 +45,7 @@ class __TwigTemplate_a36592a6c025e4266b385429be69e98b827b1ae7f0456aad1b31d345257
         }
         echo "\" href=\"";
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("homepage");
-        echo "\">ទំព័រដើមTesting </a></li>
+        echo "\">ទំព័រដើម</a></li>
           <li><span class='line-btwn'></span>
             <a class=\"";
         // line 7
@@ -246,7 +246,7 @@ class __TwigTemplate_a36592a6c025e4266b385429be69e98b827b1ae7f0456aad1b31d345257
   <div class=\"top-menu\">
     <div id=\"top-btn\" class=\"top-btn\">
       <ul>
-        <li><a class=\"{% if this.page.id == 'homepage' %} current {% endif %}\" href=\"{{ 'homepage'|page}}\">ទំព័រដើមTesting </a></li>
+        <li><a class=\"{% if this.page.id == 'homepage' %} current {% endif %}\" href=\"{{ 'homepage'|page}}\">ទំព័រដើម</a></li>
           <li><span class='line-btwn'></span>
             <a class=\"{% if this.page.id == 'about' %} current {% endif %}\" href=\"{{ 'about'|page}}\">អំពីយើង</a>
             <ul>

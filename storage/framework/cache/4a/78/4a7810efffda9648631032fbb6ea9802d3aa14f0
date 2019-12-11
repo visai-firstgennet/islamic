@@ -1,4 +1,4 @@
-1576047833a:1:{s:15:"news-single.htm";a:11:{s:8:"fileName";s:15:"news-single.htm";s:7:"content";s:312:"title = "news single"
+1576051469a:1:{s:15:"news-single.htm";a:11:{s:8:"fileName";s:15:"news-single.htm";s:7:"content";s:312:"title = "news single"
 url = "/news/:id"
 layout = "article-single"
 is_hidden = 0

@@ -1,4 +1,4 @@
-1576047834a:1:{s:40:"content-right-section-files-download.htm";a:5:{s:8:"fileName";s:40:"content-right-section-files-download.htm";s:7:"content";s:6442:"<div class="right-block">
+1576051470a:1:{s:40:"content-right-section-files-download.htm";a:5:{s:8:"fileName";s:40:"content-right-section-files-download.htm";s:7:"content";s:6442:"<div class="right-block">
 	{% if this.page.id == 'homepage' %}
 		<a href="download.html" style="float:right; font-size:14px; padding:20px;" class="link">មើលទាំងអស់ &raquo;</a>
 		<div class="right-title">ទាញយក</div>
