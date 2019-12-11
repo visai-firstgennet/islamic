@@ -1,4 +1,4 @@
-1575278237a:1:{s:38:"content-right-section-announcement.htm";a:5:{s:8:"fileName";s:38:"content-right-section-announcement.htm";s:7:"content";s:665:"<div class="right-block">
+1575717707a:1:{s:38:"content-right-section-announcement.htm";a:5:{s:8:"fileName";s:38:"content-right-section-announcement.htm";s:7:"content";s:665:"<div class="right-block">
 
 		{% if this.page.id == 'homepage' %}
 		<a href="announcement.html" style="float:right; font-size:14px; padding:20px;" class="link">មើលទាំងអស់ &raquo;</a>

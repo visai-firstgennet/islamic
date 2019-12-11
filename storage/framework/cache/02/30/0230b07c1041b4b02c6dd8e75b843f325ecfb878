@@ -1,4 +1,4 @@
-1575278237a:1:{s:10:"slider.htm";a:5:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:134:"<div class="banner-wrap">
+1575717706a:1:{s:10:"slider.htm";a:5:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:134:"<div class="banner-wrap">
 	<div class="banner-bg">
 		<div class="banner">
 				{%	component 'slider' %}

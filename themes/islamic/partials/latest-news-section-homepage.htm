@@ -1,6 +1,7 @@
 
 {% set obArticleList = ArticleList.make().sort('publish|desc').published() %}
 
+{{ obArticleList.count() }}
 
 {% set articleIndex = 1 %}
 {% set article1 	= obArticleList.first %}

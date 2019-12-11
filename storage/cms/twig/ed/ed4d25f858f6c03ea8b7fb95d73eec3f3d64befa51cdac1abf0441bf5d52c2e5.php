@@ -37,102 +37,106 @@ class __TwigTemplate_37fa7b18a7aa3df73e87ede4dc1f0f53b930d613af32e400534597874ab
         $context["obArticleList"] = twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["ArticleList"] ?? null), "make", [], "method", false, false, false, 1), "sort", [0 => "publish|desc"], "method", false, false, false, 1), "published", [], "method", false, false, false, 1);
         // line 2
         echo "
-
 ";
-        // line 4
-        $context["articleIndex"] = 1;
-        // line 5
-        $context["article1"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 5);
-        // line 6
-        $context["article2"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 6);
-        // line 7
-        $context["article3"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 7);
-        // line 8
-        $context["article4"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 8);
-        // line 9
-        $context["article5"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 9);
-        // line 10
-        $context["article6"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 10);
-        // line 11
-        $context["article7"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 11);
-        // line 12
-        $context["article8"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 12);
-        // line 13
+        // line 3
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "count", [], "method", false, false, false, 3), "html", null, true);
         echo "
 
 ";
-        // line 15
+        // line 5
+        $context["articleIndex"] = 1;
+        // line 6
+        $context["article1"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 6);
+        // line 7
+        $context["article2"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 7);
+        // line 8
+        $context["article3"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 8);
+        // line 9
+        $context["article4"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 9);
+        // line 10
+        $context["article5"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 10);
+        // line 11
+        $context["article6"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 11);
+        // line 12
+        $context["article7"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 12);
+        // line 13
+        $context["article8"] = twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 13);
+        // line 14
+        echo "
+
+";
+        // line 16
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["obArticleList"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["obArticle"]) {
             if ((($context["articleIndex"] ?? null) < 9)) {
-                // line 16
+                // line 17
                 echo "\t\t";
                 if ((($context["articleIndex"] ?? null) == 1)) {
-                    // line 17
+                    // line 18
                     echo "\t\t\t";
                     $context["article1"] = $context["obArticle"];
-                    // line 18
+                    // line 19
                     echo "
 \t\t";
-                } elseif ((                // line 19
+                } elseif ((                // line 20
 ($context["articleIndex"] ?? null) == 2)) {
-                    // line 20
+                    // line 21
                     echo "\t\t\t";
                     $context["article2"] = $context["obArticle"];
-                    // line 21
+                    // line 22
                     echo "
 \t\t";
-                } elseif ((                // line 22
+                } elseif ((                // line 23
 ($context["articleIndex"] ?? null) == 3)) {
-                    // line 23
+                    // line 24
                     echo "\t\t\t";
                     $context["article3"] = $context["obArticle"];
-                    // line 24
+                    // line 25
                     echo "
 \t\t";
-                } elseif ((                // line 25
+                } elseif ((                // line 26
 ($context["articleIndex"] ?? null) == 4)) {
-                    // line 26
+                    // line 27
                     echo "\t\t\t";
                     $context["article4"] = $context["obArticle"];
-                    // line 27
+                    // line 28
                     echo "
 \t\t";
-                } elseif ((                // line 28
+                } elseif ((                // line 29
 ($context["articleIndex"] ?? null) == 5)) {
-                    // line 29
+                    // line 30
                     echo "\t\t\t";
                     $context["article5"] = $context["obArticle"];
-                    // line 30
+                    // line 31
                     echo "
 \t\t";
-                } elseif ((                // line 31
+                } elseif ((                // line 32
 ($context["articleIndex"] ?? null) == 6)) {
-                    // line 32
+                    // line 33
                     echo "\t\t\t";
                     $context["article6"] = $context["obArticle"];
-                    // line 33
+                    // line 34
                     echo "
 \t\t";
-                } elseif ((                // line 34
+                } elseif ((                // line 35
 ($context["articleIndex"] ?? null) == 7)) {
-                    // line 35
+                    // line 36
                     echo "\t\t\t";
                     $context["article7"] = $context["obArticle"];
-                    // line 36
+                    // line 37
                     echo "
 \t\t";
-                } elseif ((                // line 37
+                } elseif ((                // line 38
 ($context["articleIndex"] ?? null) == 8)) {
-                    // line 38
+                    // line 39
                     echo "\t\t\t";
                     $context["article8"] = $context["obArticle"];
-                    // line 39
+                    // line 40
                     echo "
 \t\t";
                 }
-                // line 41
+                // line 42
                 echo "\t\t";
                 $context["articleIndex"] = (($context["articleIndex"] ?? null) + 1);
             }
@@ -140,142 +144,142 @@ class __TwigTemplate_37fa7b18a7aa3df73e87ede4dc1f0f53b930d613af32e400534597874ab
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['obArticle'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 43
+        // line 44
         echo "
 ";
-        // line 44
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 44), "id", [], "any", false, false, false, 44) == "homepage")) {
-            // line 45
+        // line 45
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 45), "id", [], "any", false, false, false, 45) == "homepage")) {
+            // line 46
             echo "<a href=\"";
             echo $this->extensions['Cms\Twig\Extension']->pageFilter("news", ["ipage" => 1]);
             echo "\" style=\"float:right;\" class=\"button\">មើលទាំងអស់ &raquo</a>
 <h1 class=\"content-title\">ព័ត៌មានថ្មីៗ</h1>
 ";
         }
-        // line 48
+        // line 49
         echo "
 ";
-        // line 49
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 49), "id", [], "any", false, false, false, 49) == "en-homepage")) {
-            // line 50
+        // line 50
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 50), "id", [], "any", false, false, false, 50) == "en-homepage")) {
+            // line 51
             echo "<a href=\"";
             echo $this->extensions['Cms\Twig\Extension']->pageFilter("news", ["ipage" => 1]);
             echo "\" style=\"float:right;\" class=\"button\">Show All &raquo</a>
 <h1 class=\"content-title\">Latest News </h1>
 ";
         }
-        // line 53
+        // line 54
         echo "
 \t";
-        // line 54
-        if (twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "isNotEmpty", [], "method", false, false, false, 54)) {
-            // line 55
+        // line 55
+        if (twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "isNotEmpty", [], "method", false, false, false, 55)) {
+            // line 56
             echo "\t\t\t\t<div class=\"content-body\" style=\"margin-top:10px; border-bottom:5px solid #ddd; padding-bottom:10px; margin-bottom:20px\">
 \t\t\t\t";
-            // line 56
-            if ( !twig_test_empty(twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 56))) {
-                // line 57
+            // line 57
+            if ( !twig_test_empty(twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 57))) {
+                // line 58
                 echo "\t\t\t\t\t<div style='font-size:14px; line-height:24px; border:1px sol'>
 \t\t\t\t\t\t\t<div class='round-bottom' style='float:left; width:430px; min-height:500px; margin-right:10px; margin-bottom:10px; background:#f4f6f6'>
 \t\t\t\t\t\t\t\t<div style='margin-bottom:10px; width:430px; height:250px; overflow:hidden'>
 \t\t\t\t\t\t\t\t\t<a class='link' href=\"";
-                // line 60
-                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "id", [], "any", false, false, false, 60)]);
+                // line 61
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "id", [], "any", false, false, false, 61)]);
                 echo "\">
 \t\t\t\t\t\t\t\t\t\t\t<img src= \"";
-                // line 61
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "preview_image", [], "any", false, false, false, 61), "thumb", [0 => 430, 1 => 250, 2 => ["mode" => "exact"]], "method", false, false, false, 61), "html", null, true);
+                // line 62
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "preview_image", [], "any", false, false, false, 62), "thumb", [0 => 430, 1 => 250, 2 => ["mode" => "exact"]], "method", false, false, false, 62), "html", null, true);
                 echo "\"/>
 \t\t\t\t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t<div style='padding:0 20px;'>
 \t\t\t\t\t\t\t\t\t<a class='link' href=\"";
-                // line 65
-                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "id", [], "any", false, false, false, 65)]);
+                // line 66
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "id", [], "any", false, false, false, 66)]);
                 echo "\" style='line-height:28px'>";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "title", [], "any", false, false, false, 65), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "title", [], "any", false, false, false, 66), "html", null, true);
                 echo "</a>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t<div style='padding:0 20px; color:#ccc; margin-bottom:10px; '>ចុះផ្សាយ: ";
-                // line 67
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "published_start", [], "any", false, false, false, 67), "html", null, true);
+                // line 68
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "published_start", [], "any", false, false, false, 68), "html", null, true);
                 echo "
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t<div style='padding:0 20px 20px'>";
-                // line 69
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "preview_text", [], "any", false, false, false, 69), "html", null, true);
+                // line 70
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article1"] ?? null), "preview_text", [], "any", false, false, false, 70), "html", null, true);
                 echo "</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 
 \t\t\t\t";
             }
-            // line 74
+            // line 75
             echo "
 \t\t\t\t";
-            // line 75
-            if ( !twig_test_empty(twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 75))) {
-                // line 76
+            // line 76
+            if ( !twig_test_empty(twig_get_attribute($this->env, $this->source, ($context["obArticleList"] ?? null), "first", [], "any", false, false, false, 76))) {
+                // line 77
                 echo "\t\t\t\t<div style='font-size:14px; line-height:24px; border:1px sol'>
 \t\t\t\t\t<div style='float:right; width:200px; border-bottom:1px dotted #ddd; margin-bottom:10px; padding-bottom:10px'>
 \t\t\t\t\t\t<div style='margin-bottom:10px'>
 \t\t\t\t\t\t\t<a class='link' href=\"";
-                // line 79
-                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "id", [], "any", false, false, false, 79)]);
+                // line 80
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "id", [], "any", false, false, false, 80)]);
                 echo "\">
 \t\t\t\t\t\t\t<img src=\"";
-                // line 80
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "preview_image", [], "any", false, false, false, 80), "thumb", [0 => 200, 1 => 100, 2 => ["mode" => "exact"]], "method", false, false, false, 80), "html", null, true);
+                // line 81
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "preview_image", [], "any", false, false, false, 81), "thumb", [0 => 200, 1 => 100, 2 => ["mode" => "exact"]], "method", false, false, false, 81), "html", null, true);
                 echo "\"/>
 \t\t\t\t\t\t</a>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div>
 \t\t\t\t\t\t\t<a href=\"";
-                // line 84
-                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "id", [], "any", false, false, false, 84)]);
+                // line 85
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "id", [], "any", false, false, false, 85)]);
                 echo "\" class='link' style='word-wrap:break-word'>";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "title", [], "any", false, false, false, 84), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "title", [], "any", false, false, false, 85), "html", null, true);
                 echo "
 \t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div style='color:#ccc; margin-bottom:10px; '>ចុះផ្សាយ: ";
-                // line 87
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "published_start", [], "any", false, false, false, 87), "html", null, true);
+                // line 88
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article2"] ?? null), "published_start", [], "any", false, false, false, 88), "html", null, true);
                 echo "
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t\t";
             }
-            // line 92
+            // line 93
             echo "
 \t\t\t\t<div style='font-size:14px; line-height:24px; border:1px sol'>
 \t\t\t\t\t<div style='float:right; width:200px; border-bottom:1px dotted #ddd; margin-bottom:10px; padding-bottom:10px'>
 \t\t\t\t\t\t<div style='margin-bottom:10px'>
 \t\t\t\t\t\t\t<a class='link' href=\"";
-            // line 96
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "id", [], "any", false, false, false, 96)]);
+            // line 97
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "id", [], "any", false, false, false, 97)]);
             echo "\">
 \t\t\t\t\t\t\t\t<img src=\"";
-            // line 97
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "preview_image", [], "any", false, false, false, 97), "thumb", [0 => 200, 1 => 100, 2 => ["mode" => "exact"]], "method", false, false, false, 97), "html", null, true);
+            // line 98
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "preview_image", [], "any", false, false, false, 98), "thumb", [0 => 200, 1 => 100, 2 => ["mode" => "exact"]], "method", false, false, false, 98), "html", null, true);
             echo "\" />
 \t\t\t\t\t\t\t</a>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div>
 \t\t\t\t\t\t\t<a href=\"";
-            // line 101
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "id", [], "any", false, false, false, 101)]);
+            // line 102
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "id", [], "any", false, false, false, 102)]);
             echo "\" class='link' style='word-wrap:break-word'>
               ";
-            // line 102
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "title", [], "any", false, false, false, 102), "html", null, true);
+            // line 103
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "title", [], "any", false, false, false, 103), "html", null, true);
             echo "
 \t\t\t\t\t\t\t</a>}
 \t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div style='color:#ccc; margin-bottom:10px; '>ចុះផ្សាយ: ";
-            // line 105
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "published_start", [], "any", false, false, false, 105), "html", null, true);
+            // line 106
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article3"] ?? null), "published_start", [], "any", false, false, false, 106), "html", null, true);
             echo "
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
@@ -283,76 +287,76 @@ class __TwigTemplate_37fa7b18a7aa3df73e87ede4dc1f0f53b930d613af32e400534597874ab
 \t\t\t\t<div style='clear:both'></div>
 
 \t\t\t\t<div>&raquo <a class='link' href=\"";
-            // line 111
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "id", [], "any", false, false, false, 111)]);
+            // line 112
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "id", [], "any", false, false, false, 112)]);
             echo "\" style='width:435px; height:20px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "title", [], "any", false, false, false, 111), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "title", [], "any", false, false, false, 112), "html", null, true);
             echo "> ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "title", [], "any", false, false, false, 111), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "title", [], "any", false, false, false, 112), "html", null, true);
             echo " </a>
 \t\t\t\t\t...<span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
-            // line 112
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "published_start", [], "any", false, false, false, 112), "html", null, true);
+            // line 113
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article4"] ?? null), "published_start", [], "any", false, false, false, 113), "html", null, true);
             echo "</span>
 \t\t\t\t</div>
 \t\t\t\t<div style='clear:both'></div>
 
 \t\t\t\t<div>&raquo <a class='link' href=\"";
-            // line 116
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "id", [], "any", false, false, false, 116)]);
-            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "title", [], "any", false, false, false, 116), "html", null, true);
-            echo "> ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "title", [], "any", false, false, false, 116), "html", null, true);
-            echo " </a>
-\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
             // line 117
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "published_start", [], "any", false, false, false, 117), "html", null, true);
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "id", [], "any", false, false, false, 117)]);
+            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "title", [], "any", false, false, false, 117), "html", null, true);
+            echo "> ";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "title", [], "any", false, false, false, 117), "html", null, true);
+            echo " </a>
+\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
+            // line 118
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article5"] ?? null), "published_start", [], "any", false, false, false, 118), "html", null, true);
             echo "</span>
 \t\t\t\t</div>
 \t\t\t\t<div style='clear:both'></div>
 
 \t\t\t\t<div>&raquo <a class='link' href=\"";
-            // line 121
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "id", [], "any", false, false, false, 121)]);
-            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "title", [], "any", false, false, false, 121), "html", null, true);
-            echo "> ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "title", [], "any", false, false, false, 121), "html", null, true);
-            echo " </a>
-\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
             // line 122
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "published_start", [], "any", false, false, false, 122), "html", null, true);
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "id", [], "any", false, false, false, 122)]);
+            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "title", [], "any", false, false, false, 122), "html", null, true);
+            echo "> ";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "title", [], "any", false, false, false, 122), "html", null, true);
+            echo " </a>
+\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
+            // line 123
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article6"] ?? null), "published_start", [], "any", false, false, false, 123), "html", null, true);
             echo "</span>
 \t\t\t\t</div>
 \t\t\t\t<div style='clear:both'></div>
 
 \t\t\t\t<div>&raquo <a class='link' href=\"";
-            // line 126
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "id", [], "any", false, false, false, 126)]);
-            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "title", [], "any", false, false, false, 126), "html", null, true);
-            echo "> ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "title", [], "any", false, false, false, 126), "html", null, true);
-            echo " </a>
-\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
             // line 127
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "published_start", [], "any", false, false, false, 127), "html", null, true);
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "id", [], "any", false, false, false, 127)]);
+            echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "title", [], "any", false, false, false, 127), "html", null, true);
+            echo "> ";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "title", [], "any", false, false, false, 127), "html", null, true);
+            echo " </a>
+\t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
+            // line 128
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article7"] ?? null), "published_start", [], "any", false, false, false, 128), "html", null, true);
             echo "</span>
 \t\t\t\t</div>
 \t\t\t\t<div style='clear:both'></div>
 
 \t\t\t\t<div>&raquo <a class='link' href=\"";
-            // line 131
-            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "id", [], "any", false, false, false, 131)]);
+            // line 132
+            echo $this->extensions['Cms\Twig\Extension']->pageFilter("news-single", ["id" => twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "id", [], "any", false, false, false, 132)]);
             echo "\" style='width:435px; height:18px; overflow:hidden; display:inline-block; word-wrap:break-word; font-size:12px;' title=";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "title", [], "any", false, false, false, 131), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "title", [], "any", false, false, false, 132), "html", null, true);
             echo "> ";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "title", [], "any", false, false, false, 131), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "title", [], "any", false, false, false, 132), "html", null, true);
             echo " </a>
 \t\t\t\t\t... <span style='font-size:12px; color:#ccc; margin-bottom:10px; '> ចុះផ្សាយ: ";
-            // line 132
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "published_start", [], "any", false, false, false, 132), "html", null, true);
+            // line 133
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["article8"] ?? null), "published_start", [], "any", false, false, false, 133), "html", null, true);
             echo "</span>
 \t\t\t\t</div>
 \t\t\t\t<div style=\"clear:both\"></div>
@@ -374,13 +378,14 @@ class __TwigTemplate_37fa7b18a7aa3df73e87ede4dc1f0f53b930d613af32e400534597874ab
 
     public function getDebugInfo()
     {
-        return array (  355 => 132,  347 => 131,  340 => 127,  332 => 126,  325 => 122,  317 => 121,  310 => 117,  302 => 116,  295 => 112,  287 => 111,  278 => 105,  272 => 102,  268 => 101,  261 => 97,  257 => 96,  251 => 92,  243 => 87,  235 => 84,  228 => 80,  224 => 79,  219 => 76,  217 => 75,  214 => 74,  206 => 69,  201 => 67,  194 => 65,  187 => 61,  183 => 60,  178 => 57,  176 => 56,  173 => 55,  171 => 54,  168 => 53,  161 => 50,  159 => 49,  156 => 48,  149 => 45,  147 => 44,  144 => 43,  136 => 41,  132 => 39,  129 => 38,  127 => 37,  124 => 36,  121 => 35,  119 => 34,  116 => 33,  113 => 32,  111 => 31,  108 => 30,  105 => 29,  103 => 28,  100 => 27,  97 => 26,  95 => 25,  92 => 24,  89 => 23,  87 => 22,  84 => 21,  81 => 20,  79 => 19,  76 => 18,  73 => 17,  70 => 16,  65 => 15,  61 => 13,  59 => 12,  57 => 11,  55 => 10,  53 => 9,  51 => 8,  49 => 7,  47 => 6,  45 => 5,  43 => 4,  39 => 2,  37 => 1,);
+        return array (  359 => 133,  351 => 132,  344 => 128,  336 => 127,  329 => 123,  321 => 122,  314 => 118,  306 => 117,  299 => 113,  291 => 112,  282 => 106,  276 => 103,  272 => 102,  265 => 98,  261 => 97,  255 => 93,  247 => 88,  239 => 85,  232 => 81,  228 => 80,  223 => 77,  221 => 76,  218 => 75,  210 => 70,  205 => 68,  198 => 66,  191 => 62,  187 => 61,  182 => 58,  180 => 57,  177 => 56,  175 => 55,  172 => 54,  165 => 51,  163 => 50,  160 => 49,  153 => 46,  151 => 45,  148 => 44,  140 => 42,  136 => 40,  133 => 39,  131 => 38,  128 => 37,  125 => 36,  123 => 35,  120 => 34,  117 => 33,  115 => 32,  112 => 31,  109 => 30,  107 => 29,  104 => 28,  101 => 27,  99 => 26,  96 => 25,  93 => 24,  91 => 23,  88 => 22,  85 => 21,  83 => 20,  80 => 19,  77 => 18,  74 => 17,  69 => 16,  65 => 14,  63 => 13,  61 => 12,  59 => 11,  57 => 10,  55 => 9,  53 => 8,  51 => 7,  49 => 6,  47 => 5,  42 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% set obArticleList = ArticleList.make().sort('publish|desc').published() %}
 
+{{ obArticleList.count() }}
 
 {% set articleIndex = 1 %}
 {% set article1 \t= obArticleList.first %}
