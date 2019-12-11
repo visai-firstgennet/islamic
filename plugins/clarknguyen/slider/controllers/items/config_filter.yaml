@@ -1,7 +1,0 @@
-scopes:
-    category:
-        label: Categories
-        modelClass: ClarkNguyen\Slider\Models\Category
-        # Apply query scope
-        scope: FilterCategories
-        nameFrom: name
