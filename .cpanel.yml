@@ -2,4 +2,4 @@
   deployment:
     tasks:
       - export DEPLOYPATH=/home/islajsho/public_html/
-      - /bin/cp index.php $DEPLOYPATH
+      - /bin/cp /islamic $DEPLOYPATH
